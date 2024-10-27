@@ -27,6 +27,10 @@ class $modify(MyMenuLayer, MenuLayer) {
     }
 
     void onTextureLdr(CCObject*) {
+        // we ballin
+        volatile int* epic = nullptr;
+        *epic = 1337;
+
         PackSelectLayer::scene();
     }
 };
